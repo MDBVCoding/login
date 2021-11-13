@@ -17,8 +17,11 @@ input {
   background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
-  background:url(../img/2.jpg);
- 
+  background:url(../img/2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .forms-container {
@@ -204,8 +207,7 @@ form {
 }
 
 @media (max-width: 460px) {
-
-	form {
+  form {
     padding: 0 1.5rem;
   }
 
@@ -223,8 +225,7 @@ form {
 }
 
 @media (max-width: 320px) {
-
-	form {
+  form {
     padding: 0 1.5rem;
   }
 
