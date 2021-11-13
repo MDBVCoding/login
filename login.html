@@ -1,14 +1,4 @@
-<?php 
-
-include_once 'funciones.php'; 
-
-if (isLoggedIn()) {
-  $_SESSION['msg'] = "Ya iniciaste sesión";
-  header('location: index.php');
-}
-?>
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,7 +16,6 @@ if (isLoggedIn()) {
         <div class="signin">
           <form  action="login.php" method="post">
             <h2 class="title">Iniciar sesion</h2>
-            <?php echo display_error(); ?>
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input class="form-control" type="number" name="cedula" id="cedula" placeholder="Introduzca su cedula">
