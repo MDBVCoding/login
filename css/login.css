@@ -207,7 +207,10 @@ form {
 }
 
 @media (max-width: 460px) {
-  form {
+	.container {
+	background-size: 460px auto;
+	}
+	form {
     padding: 0 1.5rem;
   }
 
