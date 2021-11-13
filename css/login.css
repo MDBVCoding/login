@@ -11,6 +11,11 @@ input {
 	font-family: 'Arial';
 }
 
+body:after {
+    display: none;
+    content: url(../img/2.jpg);
+}
+
 .container {
   position: relative;
   width: 100%;
