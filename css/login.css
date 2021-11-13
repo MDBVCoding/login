@@ -11,10 +11,6 @@ input {
 	font-family: 'Arial';
 }
 
-body:after {
-    display: none;
-    content: url(../img/2.jpg);
-}
 
 .container {
   position: relative;
@@ -218,7 +214,7 @@ form {
 
 @media (max-width: 460px) {
   .container {
-    background-size: 460px 900px;
+    background-size: 100% 100%;
   }
 
    form {
