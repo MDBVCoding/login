@@ -18,10 +18,10 @@ input {
   min-height: 100vh;
   overflow: hidden;
   background:url(../img/2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 1200px 1200px;
+  -moz-background-size: 1200px 1200px;
+  -o-background-size: 1200px 1200px;
+  background-size: 1200px 1200px;
 }
 
 .forms-container {
