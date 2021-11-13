@@ -21,6 +21,7 @@ input {
   background:url(../img/2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;	
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -214,6 +215,7 @@ form {
 @media (max-width: 460px) {
   .container {
     background-size: 100% 100%;
+    background-attachment: initial;	  
   }
 
    form {
