@@ -204,9 +204,7 @@ form {
 }
 
 @media (max-width: 460px) {
-	.container {
-	background-size: 460px 500px;
-	}
+
 	form {
     padding: 0 1.5rem;
   }
@@ -225,10 +223,7 @@ form {
 }
 
 @media (max-width: 320px) {
-	.container {
-	background-size: 320px 500px;
-	}
-  
+
 	form {
     padding: 0 1.5rem;
   }
