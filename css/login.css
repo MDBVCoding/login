@@ -218,7 +218,7 @@ form {
 
 @media (max-width: 460px) {
   .container {
-    background-size: 100% 100%;
+    background-size: 460px 900px;
   }
 
    form {
