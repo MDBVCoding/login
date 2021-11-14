@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  body,
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+    
+  
+
+  .contenedor   {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+    background:url(../img/2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: inset 0 0 0 100vh rgba(10, 10, 10, .5);
+}
+  .quejas_container{
+
+    max-width: 600px;
+    width: 100%;
+    background: rgba(66, 66, 66, 0.5);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    overflow: hidden;
+    
+    
+ 
+  }
+  
+  .quejas_container .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 10%;
+    margin-bottom: 55px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .quejas_container.form-group{
+    width: 100%;
+    
+  }
+
+  .quejas_container .form-group .inputfield{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .quejas_container .form-group .inputfield label{
+   width: 200px;
+   color: #ffffff;
+   margin-right: 10px;
+   font-size: 14px;
+}
+
+.quejas_container .form-group .inputfield .input{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.quejas_container .form-group .inputfield .textarea{
+    height: 200px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    resize: none;
+  }
+  
+  .quejas_container .form-group .resultados{
+    width: 100%;
+    height: 10px;
+    font-size: 12px; 
+    text-align: center;
+    color: white;
+
+  }
+
+  .quejas_container .form-group .inputfield .btn{
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #fe0707;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 60px;
+    outline: none;
+  }
+  
+  .quejas_container .form-group .inputfield .btn:hover{
+    background: #ff5858;
+  }
+
+
+
+
+
+
+  
+  @media (max-width: 768px) {
+
+    .contenedor{
+      min-height: 600px;
+      height: 100vh;
+    
+  }
+    .quejas_container {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      overflow: hidden;
+      max-width: 600px;
+      width: 90%;
+    }
+    
+    
+    .quejas_container .title{
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 10%;
+      margin-bottom: 55px;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+  
+    .quejas_container .form-group .inputfield label{
+     width: 120px;
+     color: #ffffff;
+     margin-right: 5%;
+     font-size: 1.5rem;
+
+  
+
+  }
+  
+  .quejas_container .form-group .inputfield .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 1.5rem;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .quejas_container .form-group .inputfield .textarea{
+      height: 120px;
+      width: 100%;
+      font-size: 1.5rem;
+
+    }
+    
+    .quejas_container .form-group .resultados{
+      width: 100%;
+      height: 10px;
+      font-size: 1.5rem; 
+      text-align: center;
+  
+    }
+  
+    .quejas_container .form-group .inputfield .btn{
+      font-size: 1.5rem; 
+     
+    }
+  
+  }
+
+  @media (max-width: 600px) {
+
+    
+    .quejas_container .title{
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 10%;
+      margin-bottom: 55px;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+  
+    .quejas_container .form-group .inputfield label{
+     width: 50%;
+     color: #ffffff;
+     margin-right: 5%;
+     font-size: 1.5rem;  
+
+  }
+  
+  .quejas_container .form-group .inputfield .input{
+    font-size: 1.5rem;
+  }
+  
+  .quejas_container .form-group .inputfield .textarea{
+      height: 120px;
+      width: 100%;
+      font-size: 1.5rem;
+
+    }
+    
+    .quejas_container .form-group .resultados{
+      width: 100%;
+      height: 10px;
+      font-size: 1.5rem; 
+      text-align: center;
+  
+    }
+  
+    .quejas_container .form-group .inputfield .btn{
+      font-size: 1.5rem; 
+    }
+  
+  }
+
+  @media (max-width: 460px) {
+    
+    .contenedor   {
+      background-size: 100% 100%;
+      background-attachment: initial;
+  }
+  
+    .quejas_container .form-group .inputfield label{
+     margin-right: 5%;
+     font-size: 1rem;
+  
+
+  }
+  
+  .quejas_container .form-group .inputfield .input{
+    font-size: 1rem;
+
+  }
+  
+  .quejas_container .form-group .inputfield .textarea{
+      font-size: 1rem;
+
+    }
+    
+    .quejas_container .form-group .resultados{
+      font-size: 1rem; 
+    }
+  
+    .quejas_container .form-group .inputfield .btn{
+      font-size: 1rem; 
+
+    }
+  
+  }
+  @media (max-height: 812px) {
+
+    .contenedor{
+      min-height: 600px;
+      height: 100vh;
+      background-size: 100% 100%;
+      background-attachment: initial;
+    
+  }
+    
+    
+    .quejas_container {
+
+      position: absolute;
+      top: 55%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      overflow: hidden;
+      height: 500px;
+      width: 100%;
+    }
+  
+    .quejas_container .form-group .inputfield label{
+     margin-right: 5%;
+     font-size: 1rem;
+  
+
+  }
+  
+  .quejas_container .form-group .inputfield .input{
+    font-size: 1rem;
+  }
+  
+  .quejas_container .form-group .inputfield .textarea{
+      height: 120px;
+      width: 100%;
+      font-size: 1rem;
+
+    }
+  
+  
+  }
+
+  @media (max-width: 240px) {
+
+
+  
+    .quejas_container .form-group .inputfield label{
+     width: 100px;
+     margin-right: 5%;
+     font-size: 1rem;
+  
+
+  }
+  
+  .quejas_container .form-group .inputfield .input{
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .quejas_container .form-group .inputfield .textarea{
+      height: 70px;
+      width: 100%;
+      font-size: 1rem;
+
+    }
+  
+  }
+
